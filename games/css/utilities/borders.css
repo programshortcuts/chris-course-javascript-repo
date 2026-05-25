@@ -1,0 +1,8 @@
+/* borders.css */
+.main-content {
+    border: 1px solid blue;
+}
+.main-landing-page > #mainTargetDiv {  
+    border: 1px solid magenta;
+
+}

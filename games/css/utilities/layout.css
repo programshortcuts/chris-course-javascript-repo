@@ -1,0 +1,8 @@
+/* layout.css */
+.main-content{
+    display: flex
+}
+.main-content > .main-landing-page{
+    display: flex;
+    flex-direction: column;
+}
