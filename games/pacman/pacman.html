@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pacman</title>
     <link rel="stylesheet" href="../css/main.css">
+        <meta http-equiv="Content-Security-Policy" content="
+                            default-src 'self';
+                            script-src 'self';
+                            style-src 'self' ;
+                            img-src 'self' data:;
+                            object-src 'none';
+                            base-uri 'none';
+                    ">
 </head>
 <body>
     <div class="page-wrapper">
         <header class="page-header">
-            <a href="../../index.html">back link(chris course)></a>
+            <a rel="noopener noreferrer" href="../../index.html">back link(chris course)></a>
+            <a rel="noopener noreferrer" target="_blank" href="">
+                <img src="../../images/pacman-chris-courses.jpeg" alt="">
+            </a>
             <h1>pacman</h1>
         </header>
         <nav>
@@ -36,6 +47,10 @@
                 <canvas></canvas>
                 <div id="mainTargetDiv">
                     <h4>inject here</h4>
+                    <p>This is where is be injecting my .copy-code like in my other projects</p>
+                    <p>
+
+                    </p>
                 </div>
             </div>
         </main>
