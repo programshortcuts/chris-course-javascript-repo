@@ -1,0 +1,6 @@
+.page-header {
+    display: flex;
+}
+.page-header img{
+    max-height: 100px;
+}
